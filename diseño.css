@@ -1,0 +1,19 @@
+.texto_pie{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:bisque;
+    font-size: 12px;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    left: 35px;
+
+}
+#Pie{
+    background-color:#d9d9d9;
+    width: 1200px;
+    height:170px;
+    grid-template-columns: 250px 350px 350px 250px;
+    display: grid;
+    position: relative;
+    top: 1000px;
+}
