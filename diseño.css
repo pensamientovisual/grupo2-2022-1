@@ -67,3 +67,24 @@
     position: relative;
     top: 1000px;
 }
+
+.indice{
+    margin:0;padding:0;box-sizing:border-box;font-size:0;
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+}
+
+#pestañas{
+    display:inline-block;
+    width:100%;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+}
+
+.total{
+    background-color: aqua;
+}
