@@ -9,10 +9,10 @@ body{
   }
   
   #navbar a {
-    float: left;
+    float: center;
     color: #f2f2f2;
     text-align: center;
-    padding: 0.3vw 2vw;
+    padding: 0.3vw 7vw;
     text-decoration: none;
     font-size: 0.9vw;
 
