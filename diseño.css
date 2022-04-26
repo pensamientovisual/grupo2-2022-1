@@ -50,7 +50,7 @@ body{
 }
 #Pie{
     background-color:#d9d9d9;
-    width: 1200px;
+    width: 1430px;
     height:170px;
     grid-template-columns: 250px 350px 350px 250px;
     display: grid;
