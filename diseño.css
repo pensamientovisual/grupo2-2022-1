@@ -3,6 +3,11 @@ body{
   background: #e2ece9;
 }
 
+.titulo{
+  font-family: 'Rockwell';
+  color:blueviolet ;
+}
+
 #navbar {
     overflow: hidden;
     background-color: grey;
@@ -12,7 +17,7 @@ body{
     float: center;
     color: #f2f2f2;
     text-align: center;
-    padding: 0.3vw 7vw;
+    padding: 0.5vw 11.7vw;
     text-decoration: none;
     font-size: 0.9vw;
 
