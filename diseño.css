@@ -107,3 +107,18 @@ body{
 #subdivision{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.mapadiv{
+  width: 40%;
+  margin: 50px;
+}
+
+.mapadiv path{
+  fill: #F0E68C;
+  stroke: #8B4513;
+  stroke-width: 2px;
+}
+
+.mapadiv  :hover{
+    fill: #800000;
+}
