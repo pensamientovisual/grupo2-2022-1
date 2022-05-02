@@ -10,7 +10,7 @@ body{
 
 #navbar {
     overflow: hidden;
-    background-color: grey;
+    background-color: #8D2E99;
   }
   
   #navbar a {
@@ -102,4 +102,8 @@ body{
 #TASTEM1{
   padding: 10px;
   background-color: #d9d9d9;
+}
+
+#subdivision{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
