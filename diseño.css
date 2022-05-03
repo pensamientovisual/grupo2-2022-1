@@ -109,16 +109,16 @@ body{
 }
 
 .mapadiv{
-  width: 40%;
+  width: 80%;
   margin: 50px;
 }
 
 .mapadiv path{
-  fill: #F0E68C;
-  stroke: #8B4513;
-  stroke-width: 2px;
+  fill: #8D2E99;
+  stroke: #d76ce6;
+  stroke-width: 0.5px;
 }
 
 .mapadiv  :hover{
-    fill: #800000;
+    fill: #d76ce6;
 }
