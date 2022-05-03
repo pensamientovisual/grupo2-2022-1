@@ -6,6 +6,7 @@ $(document).ready(function(){
         $(this).fadeTo("fast", 0);
         $(this).fadeTo("fast",1);
     });
+    
 
     var bs = $("#boton2");
 
