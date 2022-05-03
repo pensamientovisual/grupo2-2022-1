@@ -1,20 +1,22 @@
 $(document).ready(function(){
 
-    var d4j = $("#biologia");
+    var bs = $("#boton1");
 
-    d4j.click(function(){
+    bs.click(function(){
         $(this).fadeTo("fast", 0);
     });
   
-    d4j.click(function(){
+    bs.click(function(){
         $(this).fadeTo("fast",1);
     });
   
-    d4j.click(function(){
+    bs.click(function(){
         $(d9j).show('fast');
     });
   
-    d4j.click(function(){
+    bs.click(function(){
       $(d12j).hide('fast');
   });
+
+
   })
