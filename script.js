@@ -1,5 +1,13 @@
 $(document).ready(function(){
 
+    var regiones = $(".region");
+
+    regiones.mouseenter(function(){
+        var idRegion = $(this).attr("id");
+        $("#titulo").text(idRegion);
+        $(this).fadeTo("fast",0.5)
+    })
+
     var bs = $("#boton1");
 
     bs.click(function(){
