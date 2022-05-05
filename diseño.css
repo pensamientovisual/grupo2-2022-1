@@ -9,11 +9,16 @@ body{
   color:#8D2E99 ;
 }
 
+#imagentitulo{
+  margin: 10px 10px 20px 50px;
+}
+
+
 #letratitulo{
   font-family: 'Trebuchet MS', sans-serif;
   color:#8D2E99 ;
-  font-size: xx-large;
-  margin: -95px 5px 20px 10px;;
+  font-size: 80px;
+  margin: -140px 5px 20px 10px;
 }
 
 
