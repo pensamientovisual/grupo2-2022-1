@@ -3,9 +3,17 @@ body{
   background: #e2ece9;
 }
 
+
 #titulo{
   font-family: 'Trebuchet MS', sans-serif;
   color:#8D2E99 ;
+}
+
+#letratitulo{
+  font-family: 'Trebuchet MS', sans-serif;
+  color:#8D2E99 ;
+  font-size: xx-large;
+  margin: -95px 5px 20px 10px;;
 }
 
 
@@ -100,10 +108,6 @@ body{
   background-color: #d9d9d9;
 }
 
-#TASTEM1{
-  padding: 10px;
-  background-color: #d9d9d9;
-}
 
 #subdivision{
   font-family: 'Trebuchet MS', sans-serif;
