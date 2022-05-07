@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="diseño.css" rel="stylesheet"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
@@ -29,7 +30,21 @@
     <div id="STEM1">
         <p id="subdivision">STEM
         </p>
-        <input type="button" class="boton1" id="boton1" value="S" style="opacity: 1;">
+        <button id="open">
+            <input type="button" class="boton1" id="boton1" value="S" style="opacity: 1;">
+        </button>
+        <div class="modal-container" id="modal_container">
+            <div class="modal">
+                <h1>Ventana modal</h1>
+                <p>
+                    Mujer chile STEM
+                </p>
+                <button id="close">Cerrar</button>
+            </div>
+        </div>
+        <script src="app.js"></script>
+
+
         <input type="button" class="boton2" id="boton2" value="T" style="opacity: 1;">
         <input type="button" class="boton3" id="boton3" value="E" style="opacity: 1;">
         <input type="button" class="boton4" id="boton4" value="M" style="opacity: 1;">
