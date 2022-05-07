@@ -6,7 +6,7 @@ body{
 
 #titulo{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color:#8D2E99 ;
+  color:#9032bb ;
 }
 
 #imagentitulo{
@@ -16,7 +16,7 @@ body{
 
 #letratitulo{
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color:#8D2E99 ;
+  color:#9032bb ;
   font-size: 80px;
   margin: -140px 5px 20px 10px;
 }
@@ -24,7 +24,7 @@ body{
 
 #navbar {
     overflow: hidden;
-    background-color: #8D2E99;
+    background-color: #9032bb;
   }
   
   #navbar a {
@@ -132,7 +132,7 @@ body{
 }
 
 .mapadiv path{
-  fill: #8D2E99;
+  fill: #9032bb;
   stroke: #d76ce6;
   stroke-width: 0.5px;
 }
