@@ -122,51 +122,51 @@ body{
 
 .boton1 {
   border: 20px solid orangered; /*anchura, estilo y color borde*/
-  padding: 10px; /*espacio alrededor texto*/
+  padding: 7px; /*espacio alrededor texto*/
   background-color: orangered; /*color botón*/
   color: #ffffff; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
-  border-radius: 50px; /*bordes redondos*/
+  border-radius: 20px; /*bordes redondos*/
   }
 
 
  
 .boton2 {
   border: 20px solid limegreen; /*anchura, estilo y color borde*/
-  padding: 10px; /*espacio alrededor texto*/
+  padding: 7px; /*espacio alrededor texto*/
   background-color: limegreen; /*color botón*/
   color: #ffffff; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
-  border-radius: 50px; /*bordes redondos*/
+  border-radius: 20px; /*bordes redondos*/
   }
 .boton3 {
   border: 20px solid lightseagreen; /*anchura, estilo y color borde*/
-  padding: 10px; /*espacio alrededor texto*/
+  padding: 7px; /*espacio alrededor texto*/
   background-color: lightseagreen; /*color botón*/
   color: #ffffff; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
-  border-radius: 50px; /*bordes redondos*/
+  border-radius: 20px; /*bordes redondos*/
   }
 
 .boton4 {
   border: 20px solid purple; /*anchura, estilo y color borde*/
-  padding: 10px; /*espacio alrededor texto*/
+  padding: 7px; /*espacio alrededor texto*/
   background-color: purple; /*color botón*/
   color: #ffffff; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
-  border-radius: 50px; /*bordes redondos*/
+  border-radius: 20px; /*bordes redondos*/
   }
 
   .sidenav {
@@ -259,6 +259,8 @@ body{
   padding: 50px;
 }
 
+
+
 #textomyDIV2{
   font-style: italic;
   margin: 0%;
@@ -266,6 +268,7 @@ body{
 #myDIV2{
   text-align: justify;
   padding: 50px;
+  background-color:#818181;
 }
 
 #textomyDIV3{
@@ -275,6 +278,7 @@ body{
 #myDIV3{
   text-align: justify;
   padding: 50px;
+  background-color:#818181;
 }
 
 #textomyDIV4{
@@ -284,4 +288,5 @@ body{
 #myDIV4{
   text-align: justify;
   padding: 50px;
+  background-color:#818181;
 }
