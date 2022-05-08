@@ -205,18 +205,18 @@ body{
     
 
 #menu{
-    border: 10px solid #111; /*anchura, estilo y color borde*/
-    padding: 5px; /*espacio alrededor texto*/
-    background-color: #111; /*color botón*/
-    color: #ffffff; /*color texto*/
-    text-decoration: none; /*decoración texto*/
-    font-size: 15px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
-    border-radius: 50px; /*bordes redondos*/
-    cursor: pointer;
-    top: 10px;
-    right: 0;
-    margin-bottom: 20px;
+  border: 10px solid #111; /*anchura, estilo y color borde*/
+  padding: 5px; /*espacio alrededor texto*/
+  background-color: #111; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  font-size: 15px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+  cursor: pointer;
+  top: 10px;
+  right: 0;
+  position: fixed;
 }
 
 #PPAL{
