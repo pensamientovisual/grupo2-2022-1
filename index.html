@@ -13,7 +13,7 @@
     <link rel="icon" href="logito.png">
 </head>
 <body>
-    <h class="centrado" id="titulo">
+    <!--<h class="centrado" id="titulo">
         <img src="logito.png" width="150" id="imagentitulo">
         <p id="letratitulo">Mujeres chilenas en STEM</p></h>
 
@@ -25,8 +25,19 @@
                 <a title="Titulación" href=#ICP1>Titulación</a></title> 
             </ul>
         </nav>
-    </header>
-
+    </header>-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#PPAL">Inicio</a>
+        <a href="#STEM1">STEM</a>
+        <a href="#ICP1">Referentes</a>
+        <a href="#TIT">Matrículas y Titulación</a>
+      </div>
+    <span id="menu" onclick="openNav()">Menú</span>
+    <div id="PPAL">
+        <p id="titulo"> 
+            <a href=#STEM1> Mujeres chilenas en STEM</a></p> 
+     </div>
     <div id="STEM1">
         <p id="subdivision">STEM
         </p>
@@ -106,6 +117,10 @@
             </div>
         </p>
 
+    </div>
+
+    <div id="TIT">
+        <p>Titulación en área STEM</p>
     </div>
     
 
