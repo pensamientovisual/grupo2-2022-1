@@ -216,7 +216,7 @@ body{
     cursor: pointer;
     top: 10px;
     right: 0;
-    position: fixed;
+    margin-bottom: 20px;
 }
 
 #PPAL{
