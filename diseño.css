@@ -247,3 +247,40 @@ body{
   margin-top: 260px;
   font-weight: bolder;    
 }
+
+
+#textomyDIV{
+  font-style: italic;
+  margin: 0%;
+}
+#myDIV{
+  text-align: justify;
+  padding: 50px;
+}
+
+#textomyDIV2{
+  font-style: italic;
+  margin: 0%;
+}
+#myDIV2{
+  text-align: justify;
+  padding: 50px;
+}
+
+#textomyDIV3{
+  font-style: italic;
+  margin: 0%;
+}
+#myDIV3{
+  text-align: justify;
+  padding: 50px;
+}
+
+#textomyDIV4{
+  font-style: italic;
+  margin: 0%;
+}
+#myDIV4{
+  text-align: justify;
+  padding: 50px;
+}
