@@ -1,6 +1,6 @@
 body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background: #e2ece9;
+  background: #686868;
 }
 
 
@@ -20,38 +20,6 @@ body{
   font-size: 80px;
   margin: -140px 5px 20px 10px;
 }
-
-
-#navbar {
-    overflow: hidden;
-    background-color: #9032bb;
-  }
-  
-  #navbar a {
-    float: center;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 0.5vw 20.7vw;
-    text-decoration: none;
-    font-size: 0.9vw;
-    margin: 0px 3px;
-    transition: background .25s ease-out;
-    font-weight: 700;
-    letter-spacing: 1px;
-    opacity: 1;
-  }
-  
-  #navbar a:hover {
-    opacity: 1;
-    background-color: #fafafa;
-    color: black;
-  }
-  
-  #navbar a.active {
-    opacity: 1;
-    background-color: #ff9852;
-    color: white;
-  }
 
 
 
@@ -113,12 +81,12 @@ body{
 
 #PDA1{
   padding: 10px;
-  background-color: #d9d9d9;
+  background-color: #393939;
 }
 
 #ICP1{
   padding: 10px;
-  background-color: #d9d9d9;
+  background-color: #e2ece9;
 }
 
 
@@ -132,13 +100,13 @@ body{
 }
 
 .mapadiv path{
-  fill: #9032bb;
-  stroke: #d76ce6;
+  fill: #c1c1cf;;
+  stroke: #99729e;
   stroke-width: 0.5px;
 }
 
 .mapadiv  :hover{
-    fill: #d76ce6;
+    fill: #c9c7f8;
 }
 
 .boton1 {
