@@ -11,6 +11,14 @@ body{
   color:#9032bb ;
 }
 
+#objetivo{
+  padding: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #f1f1f1;
+  text-align:center;
+  text-align: justify;
+}
+
 #imagentitulo{
   margin: 10px 10px 20px 40px;
 }
