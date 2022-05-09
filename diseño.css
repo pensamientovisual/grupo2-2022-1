@@ -67,7 +67,7 @@ body{
 
 
 .mapadiv{
-  width: 20%;
+  height: 80%;
   margin: 0px -605px -30px;
 }
 
@@ -638,15 +638,19 @@ body{
 }
 
 #PPAL{
-  background-image: url(fondomujeres.JPG);
+  background-image: url('fondomujeres.JPG');
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size: cover;
+  opacity: 60%;
   margin-left: 0px;
   margin-right: 0px;
-  margin-top: 40px;
+  margin-top: 90px;
   margin-bottom: 100px;
   display: flex;
   justify-content: center;
   background-color: #00000065;
-  height: 520px;
+  height: 510px;
 }
 
 
