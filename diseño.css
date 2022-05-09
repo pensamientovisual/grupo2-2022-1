@@ -1,9 +1,7 @@
-@import url(//db.onlinewebfonts.com/c/eb70d7d59cab9a521e7cd10b9587a752?family=AspiraXXNarW01-Regular);
-
 body{
-  font-family: AspiraXXNarW01-Regular;
-  color:#ffffff;
-  background-color: rgb(44 44 44);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:black;
+  background-color: #ede8df;
 
 }
 
@@ -21,7 +19,7 @@ body{
 #objetivo{
   padding: 10px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #f1f1f1;
+  color: black;
   text-align: justify;
 }
 
