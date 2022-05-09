@@ -9,6 +9,11 @@ body{
 #titulo{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:#9032bb ;
+  text-decoration: none;
+  font-size: 50px;  
+  position: absolute;
+  margin-top: 260px;
+  font-weight: bolder;   
 }
 
 #objetivo{
@@ -17,21 +22,6 @@ body{
   color: #f1f1f1;
   text-align: justify;
 }
-
-#imagentitulo{
-  margin: 10px 10px 20px 40px;
-}
-
-
-#letratitulo{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:#9032bb ;
-  font-size: 80px;
-  margin: -140px 5px 20px 10px;
-}
-
-
-
 
 .texto_pie{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -64,61 +54,434 @@ body{
     top: 1000px;
 }
 
-.indice{
-    margin:0;padding:0;box-sizing:border-box;font-size:0;
-    text-decoration:none;
-    color:inherit;
-    font-size:14px;
-}
-
-#pestañas{
-    display:inline-block;
-    width:100%;
-    padding:5px 10px;
-    background-color:#000;
-    border:1px solid #000;
-    text-align:center;
-    color:#fff;
-}
-
-.total{
-    background-color: aqua;
-}
 
 #STEM1{
   padding: 10px;
   text-align: justify;
 }
 
-#PDA1{
-  padding: 10px;
-  background-color: #393939;
-}
-
-#ICP1{
-  padding: 10px;
-}
-
-
 #subdivision{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: justify;
 }
 
+
 .mapadiv{
   width: 20%;
-  margin: -5px -750px -30px;
+  margin: 0px -605px -30px;
 }
 
 .mapadiv path{
-  fill: #c1c1cf;
-  stroke: #99729e;
-  stroke-width: 0.5px;
+  fill: #ffe7cc;
+  stroke: #d76ce6;
+  stroke-width: 1px;
 }
 
-.mapadiv  :hover{
-    fill: #c9c7f8;
+/*.mapadiv  :hover{
+  fill: #d76ce6;
+}*/
+
+#S{
+  fill: orangered
 }
+
+#T{
+  fill: limegreen
+}
+
+#E{
+  fill: lightseagreen
+}
+
+#M{
+  fill: purple
+}
+
+.hide{
+  background-color: #fafafa;
+  border-radius: 30px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+  padding: 5px 10px;
+  border: 1px solid #d76ce6;
+  font-size: 12px;
+}
+
+.n1-txt{
+  top: 31%;
+  left: 8%;
+} 
+
+.n2-txt{
+  top: 29%;
+  left: 8%;
+} 
+
+.n3-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n4-txt{
+  top: 35%;
+  left: 8%;
+} 
+
+.n5-txt{
+  top: 8%;
+  left: 11.5%;
+} 
+
+.n6-txt{
+  top: 2%;
+  left: 11%;
+} 
+
+.n7-txt{
+  top: 37%;
+  left: 8%;
+} 
+
+.n8-txt{
+  top: 30%;
+  left: 8%;
+} 
+
+.n9-txt{
+  top: 82%;
+  left: 8%;
+} 
+
+.n10-txt{
+  top: 30.5%;
+  left: 8%;
+} 
+
+.n11-txt{
+  top: 30%;
+  left: 8%;
+} 
+
+.n12-txt{
+  top: 35%;
+  left: 8%;
+} 
+
+.n13-txt{
+  top: 30%;
+  left: 8%;
+} 
+
+.n14-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n15-txt{
+  top: 85%;
+  left: 11%;
+} 
+
+.n16-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n17-txt{
+  top: 26%;
+  left: 8%;
+} 
+
+.n18-txt{
+  top: 30%;
+  left: 8%;
+} 
+
+.n19-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n20-txt{
+  top: 21%;
+  left: 9.3%;
+} 
+
+.n21-txt{
+  top: 8.6%;
+  left: 11%;
+} 
+
+.n22-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n23-txt{
+  top: 50%;
+  left: 6%;
+} 
+
+.n24-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n25-txt{
+  top: 33%;
+  left: 8%;
+} 
+
+.n26-txt{
+  top: 15%;
+  left: 10%;
+} 
+
+.n27-txt{
+  top: 33%;
+  left: 8%;
+} 
+
+.n28-txt{
+  top: 40%;
+  left: 8%;
+} 
+
+.n29-txt{
+  top: 17%;
+  left: 10%;
+} 
+
+.n30-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n31-txt{
+  top: 8%;
+  left: 11%;
+} 
+
+.n32-txt{
+  top: 30%;
+  left: 8%;
+} 
+
+.n33-txt{
+  top: 60%;
+  left: 7%;
+} 
+
+.n34-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n35-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n36-txt{
+  top: 33%;
+  left: 8%;
+} 
+
+.n37-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n38-txt{
+  top: 40%;
+  left: 7.5%;
+} 
+
+.n39-txt{
+  top: 32.2%;
+  left: 8%;
+} 
+
+.n40-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n41-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n42-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n43-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n44-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n45-txt{
+  top: 31.9%;
+  left: 8%;
+} 
+
+.n46-txt{
+  top: 32.2%;
+  left: 8%;
+} 
+
+.n47-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n48-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n49-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n50-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n51-txt{
+  top: 41%;
+  left: 7.5%;
+} 
+
+.n52-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n53-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n54-txt{
+  top: 25%;
+  left: 8%;
+} 
+
+.n55-txt{
+  top: 32%;
+  left: 7.9%;
+} 
+
+.n56-txt{
+  top: 32.4%;
+  left: 8%;
+} 
+
+.n57-txt{
+  top: 32.4%;
+  left: 8%;
+} 
+
+.n58-txt{
+  top: 50%;
+  left: 6.4%;
+} 
+
+.n59-txt{
+  top: 27%;
+  left: 8%;
+} 
+
+.n60-txt{
+  top: 40%;
+  left: 8%;
+} 
+
+.n61-txt{
+  top: 31.8%;
+  left: 8%;
+} 
+
+.n62-txt{
+  top: 32.3%;
+  left: 8%;
+} 
+
+.n63-txt{
+  top: 85%;
+  left: 10%;
+} 
+
+.n64-txt{
+  top: 32%;
+  left: 8%;
+} 
+
+.n65-txt{
+  top: 31.8%;
+  left: 8%;
+} 
+
+.n66-txt{
+  top: 32.1%;
+  left: 8%;
+} 
+
+.n67-txt{
+  top: 18%;
+  left: 9.5%;
+} 
+
+.n68-txt{
+  top: 28%;
+  left: 8%;
+} 
+
+.n69-txt{
+  top: 28.4%;
+  left: 8%;
+} 
+
+.n70-txt{
+  top: 31.7%;
+  left: 8%;
+} 
+
+.n71-txt{
+  top: 27.6%;
+  left: 8%;
+} 
+
+.n72-txt{
+  top: 32.3%;
+  left: 8%;
+} 
+
+.n73-txt{
+  top: 32.5%;
+  left: 8%;
+} 
+
+.n74-txt{
+  top: 51%;
+  left: 6%;
+} 
+
+.n75-txt{
+  top: 32%;
+  left: 8%;
+} 
 
 .boton1 {
   border: 20px solid orangered; /*anchura, estilo y color borde*/
@@ -275,23 +638,15 @@ body{
 }
 
 #PPAL{
-  background-image: url(FONDO\ STEM\ \(2\).png);
-  margin-left: 0;
-  margin-right: 0;
+  background-image: url(fondomujeres.JPG);
+  margin-left: 0px;
+  margin-right: 0px;
   margin-top: 40px;
   margin-bottom: 100px;
   display: flex;
   justify-content: center;
   background-color: #00000065;
   height: 520px;
-}
-#titulo{
-  text-decoration: none;
-  font-size: 50px;  
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  position: absolute;
-  margin-top: 260px;
-  font-weight: bolder;    
 }
 
 
