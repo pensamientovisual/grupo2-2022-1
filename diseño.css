@@ -36,8 +36,8 @@ body{
 .texto_pie{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:black;
-    font-size: 18px;
-    margin: 15px;
+    font-size: 15px;
+    margin: 15px 10px 50px 50px;
     padding: 0px;
     position: relative;
     left: 7px;
@@ -46,7 +46,7 @@ body{
 .texto2_pie{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:black;
-  font-size: 18px;
+  font-size: 15px;
   margin: 15px;
   padding: 0px;
   position: relative;
