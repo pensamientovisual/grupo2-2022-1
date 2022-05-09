@@ -29,7 +29,7 @@
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#PPAL">Inicio</a>
-        <a href="objetivo">Objetivo</a>
+        <a href="#objetivo">Objetivo</a>
         <a href="#STEM1">STEM</a>
         <a href="#ICP1">Chilenas Destacadas</a>
         <a href="#TIT">Matrículas y Titulación</a>
@@ -39,54 +39,75 @@
         <p id="titulo"> 
             <a href=#objetivo> Mujeres chilenas en STEM</a></p>     
      </div>
+
+
+
+     <!--OBJETIVO Y RESUMEN-->
     <div id="objetivo">
         <p>Objetivo y resumen</p>
         <p>Este proyecto tiene como objetivo dar a conocer la participación femenina en el área STEM en Chile.</p>
         <p>A continuación podrás conocer qué significa "STEM", aprender acerca de mujeres destacadas en el área según su región de desarrollo y visualizar la progresión de la cantidad de mujeres que se involucran con carreras STEM a lo largo de los años.</p>
     </div>
+
+
+
+
+<!--BOTONES STEM-->
     <div id="STEM1">
         <p id="subdivision">STEM
         </p>
-        <p>Haz click en alguna de las letras para poder conocer qué significa la sigla STEM. Para volver, haz click nuevamente. </p>
+        <p>La sigla STEM significa .........</p>
+        <p>Haz click en alguna de las letras para poder conocer qué significa la sigla STEM.</p>
 
-        <button onclick="myFunction()" class="boton1" id="boton1" value="S" style="opacity: 1;">S</button>
+        <div id="botones">
+            <button onclick="myFunction()" class="boton1" id="boton1" value="S" style="opacity: 1;">S</button>
         <div id="myDIV" style="display: none;">
             <p id="textomyDIV">Ciencia / Science</p>
-            <br>La ciencia es el conjunto de conocimientos obtenidos a partir de la observación de los fenómenos naturales y sociales de la realidad. También considera la experimentación y demostración empírica de las distintas interpretaciones. Esta disciplina aspira a descubrir leyes universales, que sean racionales y demostrables.
-            <p>Algunas carreras en el área de las ciencias presentes en Chile son:</p> 
-            <br>
-            <br>
-            <br>
+            <p id="carreras">Es el conjunto de conocimientos obtenidos a partir de la observación de los fenómenos naturales y sociales de la realidad. También considera la experimentación y demostración empírica de las distintas interpretaciones. Esta disciplina aspira a descubrir leyes universales, que sean racionales y demostrables.</p>
+            <p id="carreras">Algunas carreras en el área de las ciencias presentes en Chile son: Geología, Farmacología, Biología, Ecología.
+            <div id="botoncerrar">
+                <p><button onclick="myFunction5()" class="boton5" id="boton5" value="Cerrar" style="opacity: 1;">Volver</button></p>
+            </div>
+            </p> 
+            
+
         </div>
 
         <button onclick="myFunction2()" class="boton2" id="boton2" value="T" style="opacity: 1;">T</button>
         <div id="myDIV2" style="display: none;">
             <p id="textomyDIV2">Tecnología / Technology</p>
-            <br>Conjunto de conocimientos, técnicas y habilidades que se aplican para la resolución de problemas y logro de objetivos. La tecnología es una respuesta al deseo humano de transformar y mejorar su calidad de vida.
-            <p>Algunas carreras en el área de la tecnología presentes en Chile son:</p> 
-            <br>
-            <br>
-            <br>
+            <br>Es el conjunto de conocimientos, técnicas y habilidades que se aplican para la resolución de problemas y logro de objetivos. La tecnología es una respuesta al deseo humano de transformar y mejorar su calidad de vida.
+            <p>Algunas carreras en el área de las ciencias presentes en Chile son: Programación, Robótica, Informática, Nanotecnología.
+            <div id="botoncerrar">
+                <p><button onclick="myFunction6()" class="boton6" id="boton6" value="Cerrar" style="opacity: 1;">Volver</button></p>
+            </div>
+            </p> 
         </div>
 
         <button onclick="myFunction3()" class="boton3" id="boton3" value="E" style="opacity: 1;">E</button>
         <div id="myDIV3" style="display: none;">
             <p id="textomyDIV3">Ingeniería / Engineering</p>
-            <br>"Disciplina que usa los principios científicos para diseñar y construir diversos objetos que logren satisfacer las necesidades y resolver problemas cotidianos de la sociedad. Para lograr este objetivo, la ingeniería ocupa diversos conocimientos tecnológicos para la innovación, invención, desarrollo y mejora de variadas técnicas y herramientas útiles del día a día.
-            <p>Algunas carreras en el área de la ingeniería presentes en Chile son:</p> 
-            <br>
-            <br>
-            <br>
+            <br>Es una disciplina que usa los principios científicos para diseñar y construir diversos objetos que logren satisfacer las necesidades y resolver problemas cotidianos de la sociedad. Para lograr este objetivo, la ingeniería ocupa diversos conocimientos tecnológicos para la innovación, invención, desarrollo y mejora de variadas técnicas y herramientas útiles del día a día.
+            <p>Algunas carreras en el área de las ciencias presentes en Chile son: Ingeniería civil, Ingeniería matemática, Ingeniería civil industrial, Ingeniería química
+            <div id="botoncerrar">
+                <p><button onclick="myFunction7()" class="boton7" id="boton7" value="Cerrar" style="opacity: 1;">Volver</button></p>
+            </div>
+            </p> 
         </div>
 
         <button onclick="myFunction4()" class="boton4" id="boton4" value="M" style="opacity: 1;">M</button>
         <div id="myDIV4" style="display: none;">
             <p id="textomyDIV4">Matemáticas / Mathematics</p>
-            <br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            <p>Algunas carreras en el área de las Matemáticas presentes en Chile son:</p> 
-            <br>
-            <br>
-            <br>
+            <br>Es una ciencia que estudia la relación entre distintos elementos, como lo son números, figuras geométricas y símbolos. Esta disciplina tiene como objetivo buscar patrones comunes que puedan generar teorías y leyes que den a entender la forma en que está diseñado el universo y ayudar a la resolución de problemas.
+            <p>Algunas carreras en el área de las Matemáticas presentes en Chile son: Astrofísica, matemática, Astronomía, Pedagogía en Matemáticas.
+            <div id="botoncerrar">
+                <p><button onclick="myFunction8()" class="boton8" id="boton8" value="Cerrar" style="opacity: 1;">Volver</button></p>
+            </div>
+            </p> 
+        </div>
+        </div>
+
+        
         </div>
 
 

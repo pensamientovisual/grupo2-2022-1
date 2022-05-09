@@ -15,7 +15,6 @@ body{
   padding: 10px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #f1f1f1;
-  text-align:center;
   text-align: justify;
 }
 
@@ -43,6 +42,7 @@ body{
     position: relative;
     left: 7px;
 }
+
 .texto2_pie{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:black;
@@ -86,8 +86,8 @@ body{
 }
 
 #STEM1{
-  padding: 20px;
-  text-align: center;
+  padding: 10px;
+  text-align: justify;
 }
 
 #PDA1{
@@ -102,6 +102,7 @@ body{
 
 #subdivision{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
 }
 
 .mapadiv{
@@ -121,52 +122,97 @@ body{
 
 .boton1 {
   border: 20px solid orangered; /*anchura, estilo y color borde*/
-  padding: 10px; /*espacio alrededor texto*/
+  padding: 7px; /*espacio alrededor texto*/
   background-color: orangered; /*color botón*/
   color: #ffffff; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
-  border-radius: 50px; /*bordes redondos*/
+  border-radius: 20px; /*bordes redondos*/
   }
 
 
  
 .boton2 {
   border: 20px solid limegreen; /*anchura, estilo y color borde*/
-  padding: 10px; /*espacio alrededor texto*/
+  padding: 7px; /*espacio alrededor texto*/
   background-color: limegreen; /*color botón*/
   color: #ffffff; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
-  border-radius: 50px; /*bordes redondos*/
+  border-radius: 20px; /*bordes redondos*/
   }
 .boton3 {
   border: 20px solid lightseagreen; /*anchura, estilo y color borde*/
-  padding: 10px; /*espacio alrededor texto*/
+  padding: 7px; /*espacio alrededor texto*/
   background-color: lightseagreen; /*color botón*/
   color: #ffffff; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
-  border-radius: 50px; /*bordes redondos*/
+  border-radius: 20px; /*bordes redondos*/
   }
 
 .boton4 {
   border: 20px solid purple; /*anchura, estilo y color borde*/
-  padding: 10px; /*espacio alrededor texto*/
+  padding: 7px; /*espacio alrededor texto*/
   background-color: purple; /*color botón*/
   color: #ffffff; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
-  border-radius: 50px; /*bordes redondos*/
+  border-radius: 20px; /*bordes redondos*/
   }
+
+.boton5 {
+  border: 7px solid rgb(213, 213, 213); /*anchura, estilo y color borde*/
+  padding: 7px; /*espacio alrededor texto*/
+  background-color: rgb(213, 213, 213); /*color botón*/
+  color: #000000; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
+  border-radius: 5px; /*bordes redondos*/
+  }
+
+.boton6 {
+  border: 7px solid rgb(213, 213, 213); /*anchura, estilo y color borde*/
+  padding: 7px; /*espacio alrededor texto*/
+  background-color: rgb(213, 213, 213); /*color botón*/
+  color: #000000; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
+  border-radius: 5px; /*bordes redondos*/
+  }
+
+.boton7 {
+  border: 7px solid rgb(213, 213, 213); /*anchura, estilo y color borde*/
+  padding: 7px; /*espacio alrededor texto*/
+  background-color: rgb(213, 213, 213); /*color botón*/
+  color: #000000; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
+  border-radius: 5px; /*bordes redondos*/
+  }
+
+.boton8 {
+  border: 7px solid rgb(213, 213, 213); /*anchura, estilo y color borde*/
+  padding: 7px; /*espacio alrededor texto*/
+  background-color: rgb(213, 213, 213); /*color botón*/
+  color: #000000; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
+  border-radius: 5px; /*bordes redondos*/
+  }
+
 
   .sidenav {
     height: 100%; /* 100% Full-height */
@@ -252,35 +298,57 @@ body{
 #textomyDIV{
   font-style: italic;
   margin: 0%;
+  font-size: 20px;
 }
 #myDIV{
   text-align: justify;
   padding: 50px;
+  background-color:#818181;
+  font-size: 17px;
 }
+
+
 
 #textomyDIV2{
   font-style: italic;
   margin: 0%;
+  font-size: 20px;
 }
 #myDIV2{
   text-align: justify;
   padding: 50px;
+  background-color:#818181;
+  font-size: 17px;
 }
 
 #textomyDIV3{
   font-style: italic;
   margin: 0%;
+  font-size: 20px;
 }
 #myDIV3{
   text-align: justify;
   padding: 50px;
+  background-color:#818181;
+  font-size: 17px;
 }
 
 #textomyDIV4{
   font-style: italic;
   margin: 0%;
+  font-size: 20px;
 }
 #myDIV4{
   text-align: justify;
   padding: 50px;
+  background-color:#818181;
+  font-size: 17px;
+}
+
+#botoncerrar{
+  text-align: center;
+}
+
+#botones{
+  text-align: center;
 }
