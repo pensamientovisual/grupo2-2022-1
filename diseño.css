@@ -2,7 +2,7 @@ body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:black;
   background-color: #ede8df;
-
+  margin: 0%;
 }
 
 
@@ -13,7 +13,8 @@ body{
   font-size: 50px;  
   position: absolute;
   margin-top: 260px;
-  font-weight: bolder;   
+  font-weight: bolder; 
+  padding: 15px;  
 }
 
 #objetivo{
@@ -21,6 +22,7 @@ body{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: black;
   text-align: justify;
+  padding: 20px; 
 }
 
 .texto_pie{
@@ -58,6 +60,7 @@ body{
 #STEM1{
   padding: 10px;
   text-align: justify;
+  padding: 20px;
 }
 
 #subdivision{
@@ -65,6 +68,13 @@ body{
   text-align: justify;
 }
 
+#ICP1{
+  padding: 20px;
+}
+
+#TIT{
+  padding: 20px;
+}
 
 .mapadiv{
   width: 20%;
@@ -485,51 +495,55 @@ body{
 
 .boton1 {
   border: 20px solid orangered; /*anchura, estilo y color borde*/
-  padding: 7px; /*espacio alrededor texto*/
+  padding: 0px; /*espacio alrededor texto*/
   background-color: orangered; /*color botón*/
   color: #ffffff; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
-  font-size: 25px;
+  font-size: 50px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
-  border-radius: 20px; /*bordes redondos*/
+  border-radius: 50px; /*bordes redondos*/
+  margin-bottom: 20px;
   }
 
 
  
 .boton2 {
   border: 20px solid limegreen; /*anchura, estilo y color borde*/
-  padding: 7px; /*espacio alrededor texto*/
+  padding: 0px; /*espacio alrededor texto*/
   background-color: limegreen; /*color botón*/
   color: #ffffff; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
-  font-size: 25px;
+  font-size: 50px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
-  border-radius: 20px; /*bordes redondos*/
+  border-radius: 50px; /*bordes redondos*/
+  margin-bottom: 20px;
   }
 .boton3 {
   border: 20px solid lightseagreen; /*anchura, estilo y color borde*/
-  padding: 7px; /*espacio alrededor texto*/
+  padding: 0px; /*espacio alrededor texto*/
   background-color: lightseagreen; /*color botón*/
   color: #ffffff; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
-  font-size: 25px;
+  font-size: 50px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
-  border-radius: 20px; /*bordes redondos*/
+  border-radius: 50px; /*bordes redondos*/
+  margin-bottom: 20px;
   }
 
 .boton4 {
   border: 20px solid purple; /*anchura, estilo y color borde*/
-  padding: 7px; /*espacio alrededor texto*/
+  padding: 0px; /*espacio alrededor texto*/
   background-color: purple; /*color botón*/
   color: #ffffff; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
-  font-size: 25px;
+  font-size: 50px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
-  border-radius: 20px; /*bordes redondos*/
+  border-radius: 50px; /*bordes redondos*/
+  margin-bottom: 20px;
   }
 
 .boton5 {
