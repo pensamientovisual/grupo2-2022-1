@@ -569,3 +569,58 @@ function myFunctionA17() {
         x.style.display = "none";
     }
 }
+
+function myFunctionA18() {
+  var x = document.getElementById("M18");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M18').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA19() {
+  var x = document.getElementById("M19");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M19').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA20() {
+  var x = document.getElementById("M20");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M20').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA21() {
+  var x = document.getElementById("M21");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M21').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA22() {
+  var x = document.getElementById("M22");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M22').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
