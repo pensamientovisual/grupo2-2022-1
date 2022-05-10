@@ -907,7 +907,8 @@
 $(document).ready(function() {  
    var chart = {
       type: 'bar',
-      zoomType: 'xy'
+      zoomType: 'xy',
+      backgroundColor: '#f1f1f1'
    };
    var title = {
       text: 'Personas matriculadas en primer año de carreras STEM'   
@@ -937,7 +938,7 @@ $(document).ready(function() {
    var plotOptions = {
       bar: {
          dataLabels: {
-            enabled: true
+            enabled: false
          }
       },
 	  series: {
@@ -948,8 +949,8 @@ $(document).ready(function() {
       layout: 'vertical',
       align: 'right',
       verticalAlign: 'top',
-      x: -40,
-      y: 100,
+      x: -20,
+      y: 80,
       floating: true,
       borderWidth: 1,
       backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
@@ -982,6 +983,153 @@ $(document).ready(function() {
   
 });
 </script>
+
+    <div id="container2" style="width: 550px; height: 400px; margin-top:20px; margin: auto"></div>
+<script language="JavaScript">
+$(document).ready(function() {  
+   var chart = {
+      type: 'bar',
+      zoomType: 'xy',
+      backgroundColor:'#f1f1f1'
+   };
+   var title = {
+      text: 'Personas tituladas de carreras STEM'   
+   };
+   var subtitle = {
+      text: 'Fuente: Servicio de Información de Educación Superior (SIES)'  
+   };
+   var xAxis = {
+      categories: ['2010', '2011', '2012', '2013', '2014','2015','2016','2017','2018','2019','2020'],
+      title: {
+         text: null
+      }
+   };
+   var yAxis = {
+      min: 0,
+      title: {
+         text: 'Cantidad de Personas',
+         align: 'high'
+      },
+      labels: {
+         overflow: 'justify'
+      }
+   };
+   var tooltip = {
+      valueDecimals: '0'
+   };
+   var plotOptions = {
+      bar: {
+         dataLabels: {
+            enabled: false
+         }
+      },
+	  series: {
+	     stacking: 'normal'
+	  }
+   };
+   var legend = {
+      layout: 'vertical',
+      align: 'right',
+      verticalAlign: 'top',
+      x: -40,
+      y: 100,
+      floating: true,
+      borderWidth: 1,
+      backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
+      shadow: true
+   };
+   var credits = {
+      enabled: false
+   };
+   
+   var series= [{
+         name: 'Hombres',
+            data: [5827,6195,6921,8637,9283,10144,10369,11284,11796,11228,10105]
+        }, {
+            name: 'Mujeres',
+            data: [1389,1470,1701,2259,2419,2748,2867,3241,3278,3022,2795]
+        }];
+      
+   var json = {};   
+   json.chart = chart; 
+   json.title = title;   
+   json.subtitle = subtitle; 
+   json.tooltip = tooltip;
+   json.xAxis = xAxis;
+   json.yAxis = yAxis;  
+   json.series = series;
+   json.plotOptions = plotOptions;
+   json.legend = legend;
+   json.credits = credits;
+   $('#container2').highcharts(json);
+  
+});
+</script>
+</div>
+<div>
+    <div id="container3" style=" background-color:#f1f1f1; width: 550px; height: 400px; margin: 0 auto"></div>
+<script language="JavaScript">
+$(document).ready(function() {
+   var title = {
+      text: 'Mujeres matriculadas en primer año v/s tituladas de carreras STEM',
+      backgroundColor: '#f1f1f1'  
+   };
+   var subtitle = {
+      text: 'Fuentes: Consejo Nacional de Educación (CNS) y Servicio de Información de Educación Superior (SIES)'
+   };
+   var xAxis = {
+      categories: ['2010', '2011', '2012', '2013', '2014','2015','2016','2017','2018','2019','2020'],
+      backgroundColor: '#f1f1f1'
+   };
+   var yAxis = {
+      title: {
+         text: 'Número de Personas'
+      },
+      plotLines: [{
+         value: 0,
+         width: 1,
+         color: '#808080'
+      }],
+      backgroundColor: '#f1f1f1'
+   };   
+
+   var tooltip = {
+      valueDecimals: '0'
+   }
+
+   var legend = {
+      layout: 'vertical',
+      align: 'right',
+      verticalAlign: 'middle',
+      borderWidth: 0,
+      backgroundColor:'#f1f1f1'
+   };
+
+
+   var series =  [
+      {
+         name: 'Mujeres Tituladas',
+         data: [1389,1470,1701,2259,2419,2748,2867,3241,3278,3022,2795]      }, 
+      {
+         name: 'Mujeres matriculadas',
+         data: [18741,20717,22925,29921,29498,26174,22413,22250,21022,21443,19892]
+      },
+   ];
+   var json = {
+   };
+
+   json.title = title;
+   json.subtitle = subtitle;
+   json.xAxis = xAxis;
+   json.yAxis = yAxis;
+   json.tooltip = tooltip;
+   json.legend = legend;
+   json.series = series;
+
+   $('#container3').highcharts(json);
+});
+</script>
+</div>
     </div>
     
 

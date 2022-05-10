@@ -73,7 +73,8 @@ body{
 
 #TIT{
   padding: 20px;
-  margin-top: 700px; 
+  margin-top: 700px;
+  justify-content: center; 
 }
 
 #svgmap{
