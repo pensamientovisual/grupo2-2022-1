@@ -1,12 +1,12 @@
-/*$(document).ready(function(){
+$(document).ready(function(){
     $(".hide").hide();
 
-    $(".info1").click(function(){
+    $(".bot1").click(function(){
         $(".hide").hide();
         $(".n1-txt").fadeIn(300);
     });
 
-})
+
       $(".n2").click(function(){
         $(".hide").hide();
       $(".n2-txt").fadeIn(300);
@@ -377,4 +377,4 @@
       $(".n75-txt").fadeIn(300);
      });
 
-});*/
+});
