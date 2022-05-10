@@ -1213,6 +1213,7 @@ body{
   margin-right:0px;
   margin-top:30px;
   text-align: justify;
+  display: block;
 }
 
 #columna3 {
@@ -1220,5 +1221,6 @@ body{
   margin-right:200px;
   margin-top:-150px;
   text-align: center;
+  display: block;
 
 }
