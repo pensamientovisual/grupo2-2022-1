@@ -120,13 +120,15 @@ body{
   border-radius: 30px;
   text-align: center;
   position: absolute;
-  margin: 0 auto;
+  margin: 0px;
   padding: 5px 10px;
   border: 1px solid #d76ce6;
   font-size: 7.2px;
+  top: 255%;
+  left: 30%;
 }
 
-.n1-txt{
+/*.n1-txt{
   top: 255%;
   left: 30%;
 } 
@@ -192,7 +194,7 @@ body{
 } 
 
 .n14-txt{
-  top: 255%;
+  top: 200%;
   left: 30%;
 } 
 
@@ -499,7 +501,7 @@ body{
 .n75-txt{
   top: 255%;
   left: 30%;
-} 
+} */
 
 .boton1 {
   border: 20px solid orangered; /*anchura, estilo y color borde*/
