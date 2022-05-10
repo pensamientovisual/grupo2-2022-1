@@ -381,7 +381,7 @@
 
 $(document).ready(function(){
   $(".hide").hide();
-
+})
 
 function myFunctionA1() {
   var x = document.getElementById("M1");
@@ -559,4 +559,13 @@ function myFunctionA16() {
     }
 }
 
-})
+function myFunctionA17() {
+  var x = document.getElementById("M17");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M17').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
