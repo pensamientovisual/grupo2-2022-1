@@ -47,10 +47,9 @@ body{
 
 
 #Pie{
-    background-color:#d9d9d9;
+    background-color:#a9a9a9;
     width: 100%;
     height:170px;
-    grid-template-columns: 250px 350px 350px 250px;
     display: grid;
     position: relative;
     top: 1000px;
@@ -1202,3 +1201,24 @@ body{
 
 }
 
+#columna1 {
+  position:absolute;
+  margin-left:50px;
+  margin-right:20px;
+  margin-top:30px;
+  text-align:left;
+}
+#columna2 {
+  margin-left:1110px;
+  margin-right:0px;
+  margin-top:30px;
+  text-align: justify;
+}
+
+#columna3 {
+  margin-left:100px;
+  margin-right:200px;
+  margin-top:-150px;
+  text-align: center;
+
+}
