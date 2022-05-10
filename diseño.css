@@ -74,11 +74,18 @@ body{
 
 #TIT{
   padding: 20px;
+  margin-top: 700px; 
+}
+
+#svgmap{
+  margin-top: 1px;
+  float:right;
 }
 
 .mapadiv{
-  height: 80%;
-  margin: 0px -605px -30px;
+  width:200px;
+  float:right;
+  margin-right: 100px;
 }
 
 .mapadiv path{
@@ -726,3 +733,26 @@ body{
   text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+.btn-group{
+  width: 690px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-gap: 5px;
+  float:left;
+  margin-right: 30px;
+  margin-top:60px;
+  margin-bottom: 30px;
+
+}
+
+.bot1{
+  background-color: limegreen;
+  background-image: url(Victoria-Castro-1290x715.jpg);
+  float: left;
+  margin-right: 1px;
+  border: 0;
+}
+>>>>>>> 3f28acabd8d2a1310e5b90bcee226d090db351d8
