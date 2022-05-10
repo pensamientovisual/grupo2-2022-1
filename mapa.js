@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    /*$(".hide").hide();*/
+/*$(document).ready(function(){
+    $(".hide").hide();
 
     $(".n1").click(function(){
         $(".hide").hide();
@@ -376,4 +376,187 @@ $(document).ready(function(){
       $(".n75-txt").fadeIn(300);
      });
 
-});
+});*/
+
+
+$(document).ready(function(){
+  $(".hide").hide();
+})
+
+
+function myFunctionA1() {
+  var x = document.getElementById("M1");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M1').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA2() {
+  var x = document.getElementById("M2");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M2').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA3() {
+  var x = document.getElementById("M3");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M3').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA4() {
+  var x = document.getElementById("M4");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M4').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA5() {
+  var x = document.getElementById("M5");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M5').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA6() {
+  var x = document.getElementById("M6");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M6').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA7() {
+  var x = document.getElementById("M7");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M7').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA8() {
+  var x = document.getElementById("M8");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M8').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA9() {
+  var x = document.getElementById("M9");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M9').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA10() {
+  var x = document.getElementById("M10");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M10').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA11() {
+  var x = document.getElementById("M11");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M11').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA12() {
+  var x = document.getElementById("M12");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M12').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA13() {
+  var x = document.getElementById("M13");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M13').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA14() {
+  var x = document.getElementById("M14");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M14').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA15() {
+  var x = document.getElementById("M15");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M15').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunctionA16() {
+  var x = document.getElementById("M16");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        $('#M16').show('fast');
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
