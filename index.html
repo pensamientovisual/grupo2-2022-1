@@ -24,26 +24,15 @@
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#PPAL">Inicio</a>
-        <a href="#objetivo">Objetivo</a>
         <a href="#STEM1">STEM</a>
         <a href="#ICP1">Chilenas Destacadas</a>
-        <a href="#TIT">Matrículas y Titulación</a>
+        <a href="#TIT">Acerca de este proyecto</a>
       </div>
     <span id="menu" onclick="openNav()">Menú</span>
-    <div id="PPAL" style="background-image: url('fondomujeres.JPG');">
+    <div id="PPAL">
         <p id="titulo"> 
-            <a href=#objetivo> Mujeres chilenas en STEM</a></p>     
+            Mujeres chilenas en STEM</p>     
      </div>
-
-
-
-     <!--OBJETIVO Y RESUMEN-->
-    <div id="objetivo">
-        <p>Este proyecto busca visualizar la realidad de las mujeres que participan en el área de STEM en Chile. A través de esta página, podrás conocer el significado de STEM, descubrir diversas referentes en el área según su región de desarrollo y observar la progresión de la participación femenina a lo largo de los años 2010 a 2020, con el objetivo de poder visibilizar la cantidad de mujeres que son partícipes en STEM y su distribución a lo largo de Chile.</p>
-    </div>
-
-
-
 
 <!--BOTONES STEM-->
     <div id="STEM1">
@@ -557,10 +546,10 @@
     </div> 
 
     <div id="ICP1">
-        <h1 h1 id="subdivision" style="font-weight: bold;">Mujeres chilenas destacadas en cada área STEM</h1>
-        <p>Interactúa con el mapa para conocer el orígen, historias y carreras de diferentes mujeres Chilenas que trabajan en el área de STEM.</p>
+        <h1 id="subdivision" style="font-weight: bold;">Mujeres chilenas destacadas en cada área STEM</h1>
+        <p>Interactúa con el mapa para conocer el orígen, historias y carreras de diferentes mujeres Chilenas que trabajan en el área de STEM.</p>  </div>
 
-
+    <div id="grillamapa"> 
         <div class="btn-group">
                 <button onclick="myFunctionA1()" type="button" class="bot1" id="btn-1-btn-default"></button>
                 <button onclick="myFunctionA2()" type="button" class="bot1" id="btn-2-btn-default"></button>
@@ -603,8 +592,8 @@
                 <button onclick="myFunctionA39()" type="button" class="bot1" id="btn-39-btn-default"></button>
                 <button onclick="myFunctionA40()" type="button" class="bot1" id="btn-40-btn-default"></button>
                 <button onclick="myFunctionA41()" type="button" class="bot1" id="btn-41-btn-default"></button>
-                <button onclick="myFunctionA42()"type="button" class="bot1" id="btn-42-btn-default"></button>
-                <button onclick="myFunctionA43()"type="button" class="bot1" id="btn-43-btn-default"></button>
+                <button onclick="myFunctionA42()" type="button" class="bot1" id="btn-42-btn-default"></button>
+                <button onclick="myFunctionA43()" type="button" class="bot1" id="btn-43-btn-default"></button>
                 <button onclick="myFunctionA44()" type="button" class="bot1" id="btn-44-btn-default"></button>
                 <button onclick="myFunctionA45()" type="button" class="bot1" id="btn-45-btn-default"></button>
                 <button onclick="myFunctionA46()" type="button" class="bot1" id="btn-46-btn-default"></button>
@@ -636,10 +625,7 @@
                 <button onclick="myFunctionA72()" type="button" class="bot1" id="btn-72-btn-default"></button>
                 <button onclick="myFunctionA73()" type="button" class="bot1" id="btn-73-btn-default"></button>
                 <button onclick="myFunctionA74()" type="button" class="bot1" id="btn-74-btn-default"></button>
-                <button onclick="myFunctionA75()" type="button" class="bot1" id="btn-75-btn-default"></button>
-    
-                  
-        </div>
+                <button onclick="myFunctionA75()" type="button" class="bot1" id="btn-75-btn-default"></button> </div>
 
         <div class="mapadiv">  
             <svg id="svgmap" version="1.2" viewbox="0 0 1000 1186" height ="600" xmlns="http://www.w3.org/2000/svg">
@@ -898,21 +884,29 @@
                 <circle class="n75" id="M" cx="900.7" cy="420.2" r="2.5">  
                 </circle>
 
-               </svg>   
-        </div>
+               </svg>  </div> 
+        
     </div>
 
 
     <div id="TIT">
-        <h1 h1 id="subdivision" style="font-weight: bold;">Mujeres matriculadas y tituladas en STEM (2010-2020)</h1>
-        <p>Esta sección presenta la diferencia entre la cantidad de hombres y mujeres matriculados y titulados durante los años 2010 a 2020. </p>
-        <div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
+        <h1 id="subdivision" style="font-weight: bold;">Acerca de este proyecto</h1>
+        <!--OBJETIVO Y RESUMEN-->
+        <div id="objetivo">
+            <p>Este proyecto busca visualizar la realidad de las mujeres que participan en el área de STEM en Chile. A través de esta página, podrás conocer el significado de STEM, descubrir diversas referentes en el área según su región de desarrollo y observar la progresión de la participación femenina a lo largo de los años 2010 a 2020, con el objetivo de poder visibilizar la cantidad de mujeres que son partícipes en STEM y su distribución a lo largo de Chile.</p>
+        </div>
+        <h3 id="subdivision" style="font-weight: bold;">Mujeres matriculadas y tituladas en STEM (2010-2020)</h3> 
+        <p>Esta sección presenta la diferencia entre la cantidad de hombres y mujeres matriculados y titulados durante los años 2010 a 2020. </p> </div>
+      
+    <div id="graficos1y2">  
+    <div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
+        
 <script language="JavaScript">
 $(document).ready(function() {  
    var chart = {
       type: 'bar',
       zoomType: 'xy',
-      backgroundColor: '#f1f1f1'
+      backgroundColor: '#ffffff'
    };
    var title = {
       text: 'Personas matriculadas en primer año de carreras STEM'   
@@ -994,7 +988,7 @@ $(document).ready(function() {
    var chart = {
       type: 'bar',
       zoomType: 'xy',
-      backgroundColor:'#f1f1f1'
+      backgroundColor:'#ffffff'
    };
    var title = {
       text: 'Personas tituladas de carreras STEM'   
@@ -1070,20 +1064,22 @@ $(document).ready(function() {
 });
 </script>
 </div>
-<div>
-    <div id="container3" style=" background-color:#f1f1f1; width: 550px; height: 400px; margin: 0 auto"></div>
+
+<div id="grafico3">
+    <p id="ultimo" > A partir de los gráficos anteriores, se pueden visualizar las diferencias entre mujeres matriculadas y tituladas en carreras profesionales durante 10 años, y su respectiva dependencia:</p>
+    <div id="container3" style=" background-color:#ffffff; width: 550px; height: 400px; margin: 0 auto"></div>
 <script language="JavaScript">
 $(document).ready(function() {
    var title = {
       text: 'Mujeres matriculadas en primer año v/s tituladas de carreras STEM',
-      backgroundColor: '#f1f1f1'  
+      backgroundColor: '#ffffff'  
    };
    var subtitle = {
       text: 'Fuentes: Consejo Nacional de Educación (CNS) y Servicio de Información de Educación Superior (SIES)'
    };
    var xAxis = {
       categories: ['2010', '2011', '2012', '2013', '2014','2015','2016','2017','2018','2019','2020'],
-      backgroundColor: '#f1f1f1'
+      backgroundColor: '#ffffff'
    };
    var yAxis = {
       title: {
@@ -1094,7 +1090,7 @@ $(document).ready(function() {
          width: 1,
          color: '#808080'
       }],
-      backgroundColor: '#f1f1f1'
+      backgroundColor: '#ffffff'
    };   
 
    var tooltip = {
@@ -1106,7 +1102,7 @@ $(document).ready(function() {
       align: 'right',
       verticalAlign: 'middle',
       borderWidth: 0,
-      backgroundColor:'#f1f1f1'
+      backgroundColor:'#ffffff'
    };
 
 
@@ -1134,21 +1130,21 @@ $(document).ready(function() {
 });
 </script>
 </div>
-    </div>
+           
     
 
     <div id="Pie">
         <div class="texto_pie" id="columna1">
-          <p><strong>DESARROLLADORAS</strong>
+          <p><strong>DESARROLLADORAS:</strong>
           <br>Javiera Martínez
           <br>Isidora Plummer
           <br>Ignacia Romero</p>
         </div>
         <div class="texto2_pie" id="columna2">
             <p><strong>Para más información visita:</strong> 
-                <br><a href="https://minmujeryeg.gob.cl/?page_id=4080" target="_blank" style="text-decoration: none;">"Más Mujeres, más Ciencia"</a>
+                <br><a href="https://minmujeryeg.gob.cl/?page_id=4080" target="_blank" style="text-decoration: none;" style="color: #9032bb;">Más Mujeres, más Ciencia</a>
                 <br><a href="https://www.educarchile.cl/node/50621" target="_blank" style="text-decoration: none;" style="color: #9032bb;">STEM Chile</a>
-                <br><a href="https://www.instagram.com/mujeres_stem_cl/?hl=es" target="_blank" style="text-decoration: none;">Instagram Mujeres en STEM Chile</a>
+                <br><a href="https://www.instagram.com/mujeres_stem_cl/?hl=es" target="_blank" style="text-decoration: none;" style="color: #9032bb;">Instagram Mujeres en STEM Chile</a>
             </p>
         </div>
         <div id="columna3">
