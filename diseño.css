@@ -1,0 +1,1245 @@
+body{
+  font-family: 'Didact Gothic', sans-serif;
+  color:black;
+  background-color: #ffffff;
+  margin: 0%;
+}
+
+
+#titulo{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-size: 60px;  
+  position: absolute; 
+  font-weight: bolder; 
+  padding: 5px;  
+  margin-top: 25px;
+}
+
+#objetivo{
+  font-family: 'Didact Gothic', sans-serif;
+  color: black;
+  text-align: justify;
+  padding: 0px; 
+}
+
+.texto_pie{
+    font-family: 'Didact Gothic', sans-serif;
+    color:black;
+    font-size: 15px;
+    margin: 15px 10px 50px 50px;
+    padding: 0px;
+    left: 7px;
+}
+
+.texto2_pie{
+  font-family: 'Didact Gothic', sans-serif;
+  color:black;
+  font-size: 15px;
+  margin: 15px;
+  padding: 0px;
+  right:0;
+}
+
+
+#Pie{
+    background-color:#cdb6e8;;
+    width: 100%;
+    height:170px;
+    display: grid;
+    top: 100px;
+}
+
+
+#STEM1{
+  text-align: justify;
+  padding: 0px 20px 0px 20px;
+  margin-top: 0px;
+}
+
+#subdivision{
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+}
+
+#ICP1{
+  padding: 20px;
+}
+
+#TIT{
+  padding: 20px;
+  margin-top: 20px;
+  justify-content: center; 
+}
+
+#svgmap{
+  margin-top: -20px;
+  float:right;
+}
+
+.mapadiv{
+  width:10px;
+  float:right;
+  margin-right: 100px;
+  
+}
+
+.mapadiv path{
+  fill: #ffe7cc;
+  stroke: #d76ce6;
+  stroke-width: 1px;
+}
+
+.mapadiv  :hover{
+  fill: #d76ce6;
+}
+
+#S{
+  fill: orangered
+}
+
+#T{
+  fill: limegreen
+}
+
+#E{
+  fill: lightseagreen
+}
+
+#M{
+  fill: purple
+}
+
+.hide{
+  background-color: #fafafa;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 5px;
+  border: 1px solid #d76ce6;
+  font-size: 10px;
+  top: 1000%;
+  left: 30%;
+
+}
+
+/*.n1-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n2-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n3-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n4-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n5-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n6-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n7-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n8-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n9-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n10-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n11-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n12-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n13-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n14-txt{
+  top: 200%;
+  left: 30%;
+} 
+
+.n15-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n16-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n17-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n18-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n19-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n20-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n21-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n22-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n23-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n24-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n25-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n26-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n27-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n28-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n29-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n30-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n31-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n32-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n33-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n34-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n35-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n36-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n37-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n38-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n39-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n40-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n41-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n42-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n43-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n44-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n45-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n46-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n47-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n48-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n49-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n50-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n51-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n52-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n53-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n54-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n55-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n56-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n57-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n58-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n59-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n60-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n61-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n62-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n63-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n64-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n65-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n66-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n67-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n68-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n69-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n70-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n71-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n72-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n73-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n74-txt{
+  top: 255%;
+  left: 30%;
+} 
+
+.n75-txt{
+  top: 255%;
+  left: 30%;
+} */
+
+.boton1 {
+  border: 20px solid orangered; /*anchura, estilo y color borde*/
+  padding: 0px; /*espacio alrededor texto*/
+  background-color: orangered; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif; /*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+  margin-bottom: 20px;
+  }
+
+
+ 
+.boton2 {
+  border: 20px solid limegreen; /*anchura, estilo y color borde*/
+  padding: 0px; /*espacio alrededor texto*/
+  background-color: limegreen; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;/*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+  margin-bottom: 20px;
+  }
+.boton3 {
+  border: 20px solid lightseagreen; /*anchura, estilo y color borde*/
+  padding: 0px; /*espacio alrededor texto*/
+  background-color: lightseagreen; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;/*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+  margin-bottom: 20px;
+  }
+
+.boton4 {
+  border: 20px solid purple; /*anchura, estilo y color borde*/
+  padding: 0px; /*espacio alrededor texto*/
+  background-color: purple; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;/*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+  margin-bottom: 20px;
+  }
+
+.boton5 {
+  border: 7px solid rgb(213, 213, 213); /*anchura, estilo y color borde*/
+  padding: 7px; /*espacio alrededor texto*/
+  background-color: rgb(213, 213, 213); /*color botón*/
+  color: #000000; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif; /*tipografía texto*/
+  border-radius: 5px; /*bordes redondos*/
+  }
+
+.boton6 {
+  border: 7px solid rgb(213, 213, 213); /*anchura, estilo y color borde*/
+  padding: 7px; /*espacio alrededor texto*/
+  background-color: rgb(213, 213, 213); /*color botón*/
+  color: #000000; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;/*tipografía texto*/
+  border-radius: 5px; /*bordes redondos*/
+  }
+
+.boton7 {
+  border: 7px solid rgb(213, 213, 213); /*anchura, estilo y color borde*/
+  padding: 7px; /*espacio alrededor texto*/
+  background-color: rgb(213, 213, 213); /*color botón*/
+  color: #000000; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;/*tipografía texto*/
+  border-radius: 5px; /*bordes redondos*/
+  }
+
+.boton8 {
+  border: 7px solid rgb(213, 213, 213); /*anchura, estilo y color borde*/
+  padding: 7px; /*espacio alrededor texto*/
+  background-color: rgb(213, 213, 213); /*color botón*/
+  color: #000000; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;/*tipografía texto*/
+  border-radius: 5px; /*bordes redondos*/
+  }
+
+
+  .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+    
+    /* The navigation menu links */
+    .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Didact Gothic', sans-serif;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    }
+    
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+    color: #ffffff;
+    }
+    
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    }
+    
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+    transition: margin-left .5s;
+    padding: 20px;
+    }
+    
+
+#menu{
+  border: 10px solid #111; /*anchura, estilo y color borde*/
+  padding: 5px; /*espacio alrededor texto*/
+  background-color: #111; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  font-size: 15px;
+  font-family:'Didact Gothic', sans-serif;/*tipografía texto*/
+  border-radius: 50px; /*bordes redondos*/
+  cursor: pointer;
+  top: 10px;
+  right: 10px;
+  position: fixed;
+}
+
+#PPAL{
+  background-image: url(logito.png);
+  background-repeat: no-repeat;
+  background-size: 10%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  background-color: #cdb6e8;
+  height: 150px;
+}
+
+
+#textomyDIV{
+  font-style: italic;
+  font-family: 'Didact Gothic', sans-serif;
+  margin: 0%;
+  font-size: 20px;
+}
+#myDIV{
+  text-align: justify;
+  padding: 50px;
+  background-color:#cdb6e8;
+  font-size: 17px;
+}
+
+
+
+#textomyDIV2{
+  font-style: italic;
+  font-family: 'Didact Gothic', sans-serif;
+  margin: 0%;
+  font-size: 20px;
+}
+#myDIV2{
+  text-align: justify;
+  padding: 50px;
+  background-color:#cdb6e8;
+  font-size: 17px;
+}
+
+#textomyDIV3{
+  font-style: italic;
+  font-family: 'Didact Gothic', sans-serif;
+  margin: 0%;
+  font-size: 20px;
+}
+#myDIV3{
+  text-align: justify;
+  padding: 50px;
+  background-color:#cdb6e8;
+  font-size: 17px;
+}
+
+#textomyDIV4{
+  font-style: italic;
+  font-family: 'Didact Gothic', sans-serif;
+  margin: 0%;
+  font-size: 20px;
+}
+#myDIV4{
+  text-align: justify;
+  padding: 50px;
+  background-color:#cdb6e8;
+  font-size: 17px;
+}
+
+#botoncerrar{
+  text-align: center;
+}
+
+#botones{
+  text-align: center;
+}
+
+.btn-group{
+  width: 910px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-gap: 5px;
+  justify-content: center;
+  margin-right: 50px;
+  margin-top:40px;
+  margin-bottom: 20px;
+  margin-left: 250px;
+
+}
+
+.bot1{
+  float: left;
+  margin-right: 1px;
+  border: 0;
+}
+
+#btn-1-btn-default{
+  background-image: url(mujeresstem/1.JPG);
+  background-size: cover;
+
+}
+
+#btn-2-btn-default{
+  background-image: url(mujeresstem/2.JPG);
+  background-size: cover;
+
+}
+
+#btn-3-btn-default{
+  background-image: url(mujeresstem/3.JPG);
+  background-size: cover;
+
+}
+
+#btn-4-btn-default{
+  background-image: url(mujeresstem/4.JPG);
+  background-size: cover;
+
+}
+
+#btn-5-btn-default{
+  background-image: url(mujeresstem/5.JPG);
+  background-size: cover;
+
+}
+
+#btn-6-btn-default{
+  background-image: url(mujeresstem/6.JPG);
+  background-size: cover;
+
+}
+
+#btn-7-btn-default{
+  background-image: url(mujeresstem/7.JPG);
+  background-size: cover;
+
+}
+
+#btn-8-btn-default{
+  background-image: url(mujeresstem/8.JPG);
+  background-size: cover;
+
+}
+
+#btn-9-btn-default{
+  background-image: url(mujeresstem/9.JPG);
+  background-size: cover;
+
+}
+
+#btn-10-btn-default{
+  background-image: url(mujeresstem/10.JPG);
+  background-size: cover;
+
+}
+
+#btn-11-btn-default{
+  background-image: url(mujeresstem/11.JPG);
+  background-size: cover;
+
+}
+
+#btn-12-btn-default{
+  background-image: url(mujeresstem/12.JPG);
+  background-size: cover;
+
+}
+
+#btn-13-btn-default{
+  background-image: url(mujeresstem/13.JPG);
+  background-size: cover;
+
+}
+
+#btn-14-btn-default{
+  background-image: url(mujeresstem/14.JPG);
+  background-size: cover;
+
+}
+
+#btn-15-btn-default{
+  background-image: url(mujeresstem/15.JPG);
+  background-size: cover;
+
+}
+
+#btn-16-btn-default{
+  background-image: url(mujeresstem/16.JPG);
+  background-size: cover;
+
+}
+
+#btn-17-btn-default{
+  background-image: url(mujeresstem/17.JPG);
+  background-size: cover;
+
+}
+
+#btn-18-btn-default{
+  background-image: url(mujeresstem/18.JPG);
+  background-size: cover;
+
+}
+
+#btn-19-btn-default{
+  background-image: url(mujeresstem/19.JPG);
+  background-size: cover;
+
+}
+
+#btn-20-btn-default{
+  background-image: url(mujeresstem/20.JPG);
+  background-size: cover;
+
+}
+
+#btn-21-btn-default{
+  background-image: url(mujeresstem/21.JPG);
+  background-size: cover;
+
+}
+
+#btn-22-btn-default{
+  background-image: url(mujeresstem/22.JPG);
+  background-size: cover;
+
+}
+
+#btn-23-btn-default{
+  background-image: url(mujeresstem/23.JPG);
+  background-size: cover;
+
+}
+
+#btn-24-btn-default{
+  background-image: url(mujeresstem/24.JPG);
+  background-size: cover;
+
+}
+
+#btn-25-btn-default{
+  background-image: url(mujeresstem/25.JPG);
+  background-size: cover;
+
+}
+
+#btn-26-btn-default{
+  background-image: url(mujeresstem/26.JPG);
+  background-size: cover;
+
+}
+
+#btn-27-btn-default{
+  background-image: url(mujeresstem/27.JPG);
+  background-size: cover;
+
+}
+
+#btn-28-btn-default{
+  background-image: url(mujeresstem/28.JPG);
+  background-size: cover;
+
+}
+
+#btn-29-btn-default{
+  background-image: url(mujeresstem/29.JPG);
+  background-size: cover;
+
+}
+
+#btn-30-btn-default{
+  background-image: url(mujeresstem/30.JPG);
+  background-size: cover;
+
+}
+
+#btn-31-btn-default{
+  background-image: url(mujeresstem/31.JPG);
+  background-size: cover;
+
+}
+
+#btn-32-btn-default{
+  background-image: url(mujeresstem/32.JPG);
+  background-size: cover;
+
+}
+
+#btn-33-btn-default{
+  background-image: url(mujeresstem/33.JPG);
+  background-size: cover;
+
+}
+
+#btn-34-btn-default{
+  background-image: url(mujeresstem/34.JPG);
+  background-size: cover;
+
+}
+
+#btn-35-btn-default{
+  background-image: url(mujeresstem/35.JPG);
+  background-size: cover;
+
+}
+
+#btn-36-btn-default{
+  background-image: url(mujeresstem/36.JPG);
+  background-size: cover;
+
+}
+
+#btn-37-btn-default{
+  background-image: url(mujeresstem/37.JPG);
+  background-size: cover;
+
+}
+
+#btn-38-btn-default{
+  background-image: url(mujeresstem/38.JPG);
+  background-size: cover;
+
+}
+
+#btn-39-btn-default{
+  background-image: url(mujeresstem/39.JPG);
+  background-size: cover;
+
+}
+
+#btn-40-btn-default{
+  background-image: url(mujeresstem/40.JPG);
+  background-size: cover;
+
+}
+
+#btn-41-btn-default{
+  background-image: url(mujeresstem/41.JPG);
+  background-size: cover;
+
+}
+
+#btn-42-btn-default{
+  background-image: url(mujeresstem/42.JPG);
+  background-size: cover;
+
+}
+
+#btn-43-btn-default{
+  background-image: url(mujeresstem/43.JPG);
+  background-size: cover;
+
+}
+
+#btn-44-btn-default{
+  background-image: url(mujeresstem/44.JPG);
+  background-size: cover;
+
+}
+
+#btn-45-btn-default{
+  background-image: url(mujeresstem/45.JPG);
+  background-size: cover;
+
+}
+
+#btn-46-btn-default{
+  background-image: url(mujeresstem/46.JPG);
+  background-size: cover;
+
+}
+
+#btn-47-btn-default{
+  background-image: url(mujeresstem/47.JPG);
+  background-size: cover;
+
+}
+
+#btn-48-btn-default{
+  background-image: url(mujeresstem/48.JPG);
+  background-size: cover;
+
+}
+
+#btn-49-btn-default{
+  background-image: url(mujeresstem/49.JPG);
+  background-size: cover;
+
+}
+
+#btn-50-btn-default{
+  background-image: url(mujeresstem/50.JPG);
+  background-size: cover;
+
+}
+
+#btn-51-btn-default{
+  background-image: url(mujeresstem/51.JPG);
+  background-size: cover;
+
+}
+
+#btn-52-btn-default{
+  background-image: url(mujeresstem/52.JPG);
+  background-size: cover;
+
+}
+
+#btn-53-btn-default{
+  background-image: url(mujeresstem/53.JPG);
+  background-size: cover;
+
+}
+
+#btn-54-btn-default{
+  background-image: url(mujeresstem/54.JPG);
+  background-size: cover;
+
+}
+
+#btn-55-btn-default{
+  background-image: url(mujeresstem/55.JPG);
+  background-size: cover;
+
+}
+
+#btn-56-btn-default{
+  background-image: url(mujeresstem/56.JPG);
+  background-size: cover;
+
+}
+
+#btn-57-btn-default{
+  background-image: url(mujeresstem/57.JPG);
+  background-size: cover;
+
+}
+
+#btn-58-btn-default{
+  background-image: url(mujeresstem/58.JPG);
+  background-size: cover;
+
+}
+
+#btn-59-btn-default{
+  background-image: url(mujeresstem/59.JPG);
+  background-size: cover;
+
+}
+
+#btn-60-btn-default{
+  background-image: url(mujeresstem/60.JPG);
+  background-size: cover;
+
+}
+
+#btn-61-btn-default{
+  background-image: url(mujeresstem/61.JPG);
+  background-size: cover;
+
+}
+
+#btn-62-btn-default{
+  background-image: url(mujeresstem/62.jpg);
+  background-size: cover;
+
+}
+
+#btn-63-btn-default{
+  background-image: url(mujeresstem/63.JPG);
+  background-size: cover;
+
+}
+
+#btn-64-btn-default{
+  background-image: url(mujeresstem/64.JPG);
+  background-size: cover;
+
+}
+
+#btn-65-btn-default{
+  background-image: url(mujeresstem/65.JPG);
+  background-size: cover;
+
+}
+
+#btn-66-btn-default{
+  background-image: url(mujeresstem/66.jpg);
+  background-size: cover;
+
+}
+
+#btn-67-btn-default{
+  background-image: url(mujeresstem/67.JPG);
+  background-size: cover;
+
+}
+
+#btn-68-btn-default{
+  background-image: url(mujeresstem/68.JPG);
+  background-size: cover;
+
+}
+
+#btn-69-btn-default{
+  background-image: url(mujeresstem/69.JPG);
+  background-size: cover;
+
+}
+
+#btn-70-btn-default{
+  background-image: url(mujeresstem/70.JPG);
+  background-size: cover;
+
+}
+
+#btn-71-btn-default{
+  background-image: url(mujeresstem/71.JPG);
+  background-size: cover;
+
+}
+
+#btn-72-btn-default{
+  background-image: url(mujeresstem/72.JPG);
+  background-size: cover;
+
+}
+
+#btn-73-btn-default{
+  background-image: url(mujeresstem/73.JPG);
+  background-size: cover;
+
+}
+
+#btn-74-btn-default{
+  background-image: url(mujeresstem/74.JPG);
+  background-size: cover;
+
+}
+
+#btn-75-btn-default{
+  background-image: url(mujeresstem/75.JPG);
+  background-size: cover;
+
+}
+
+#columna1 {
+  position:absolute;
+  margin-left:50px;
+  margin-right:20px;
+  margin-top:30px;
+  text-align:left;
+}
+#columna2 {
+  margin-left:1000px;
+  margin-right:0px;
+  margin-top:30px;
+  text-align: justify;
+  display: block;
+}
+
+#columna3 {
+  margin-left:140px;
+  margin-right:200px;
+  margin-top:-150px;
+  text-align: center;
+  display: block;
+
+}
+
+#graficos1y2{
+  left:0;
+  display: flex;
+  justify-content: center;
+}
+
+#grafico3{
+  margin-bottom: 50px;
+}
+#ultimo{
+  font-family: 'Didact Gothic', sans-serif;
+  color: black;
+  text-align: justify;
+  margin: 50px 20px 100px 20px;
+}
+
