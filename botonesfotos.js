@@ -1,13 +1,13 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
     $(".hide").hide();
 
-    $(".1").click(function(){
+    $(".info1").click(function(){
         $(".hide").hide();
         $(".n1-txt").fadeIn(300);
     });
 
 })
-      /*$(".n2").click(function(){
+      $(".n2").click(function(){
         $(".hide").hide();
       $(".n2-txt").fadeIn(300);
      });
