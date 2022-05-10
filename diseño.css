@@ -740,7 +740,7 @@ body{
   grid-template-columns: repeat(15, 1fr);
   grid-gap: 5px;
   justify-content: center;
-  margin-right: 30px;
+  margin-right: 50px;
   margin-top:40px;
   margin-bottom: 20px;
   margin-left: 250px;
