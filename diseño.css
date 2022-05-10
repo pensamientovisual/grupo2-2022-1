@@ -734,7 +734,7 @@ body{
 }
 
 .btn-group{
-  width: 690px;
+  width: 910px;
   height: 400px;
   display: grid;
   grid-template-columns: repeat(15, 1fr);
