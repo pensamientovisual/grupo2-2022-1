@@ -13,4 +13,4 @@ Para facilitar el orden se presenta la siguiente estructura de archivos:
 
 donde `index.html` es el archivo para su página principal, `css` es un directorio para guardar los archivos con extensión `.css`, `html` es un directorio para guardar los archivos con extensión `.html` que no sean `index.html`, `js` es un directorio para guardar los archivos con extensión `.js` e `img` es un directorio para guardar recursos gráficos que vayan a utilizar en la página.
 
-Es muy importante que mantengan el archivo `index.html` donde está y no le cambien el nombre. De esta forma cuando suban los documentos a GitHub, la página se subirá automáticamente [acá](https://pensamientovisual.github.io/grupo2-2022-1/).
+Es muy importante que mantengan el archivo `index.html` donde está y no le cambien el nombre. De esta forma cuando suban los documentos a GitHub, la página se subirá automáticamente [acá](file:///Users/ignaciaromero/Desktop/UC/2022-1/PENSAMIENTO%20VISUAL/VSCODE/grupo2-2022-1/index.html#ICP1).
