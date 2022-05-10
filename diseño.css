@@ -94,9 +94,9 @@ body{
   stroke-width: 1px;
 }
 
-/*.mapadiv  :hover{
+.mapadiv  :hover{
   fill: #d76ce6;
-}*/
+}
 
 #S{
   fill: orangered
