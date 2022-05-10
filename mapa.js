@@ -1,11 +1,5 @@
 $(document).ready(function(){
-  $(".hide").hide();
-
-
-    $("#CHL2705").click(function(){
-      $(".hide").show();
-      $("#btn-1-btn-default").fadeTo("fast",1);
-    });
+    /*$(".hide").hide();*/
 
     $(".n1").click(function(){
         $(".hide").hide();
