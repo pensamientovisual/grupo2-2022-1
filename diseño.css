@@ -1,14 +1,13 @@
 body{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   color:black;
-  background-color: #ede8df;
+  background-color: #ffffff;
   margin: 0%;
 }
 
 
 #titulo{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:#9032bb ;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   font-size: 50px;  
   position: absolute;
@@ -19,14 +18,14 @@ body{
 
 #objetivo{
   padding: 10px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   color: black;
   text-align: justify;
   padding: 20px; 
 }
 
 .texto_pie{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     color:black;
     font-size: 15px;
     margin: 15px 10px 50px 50px;
@@ -36,7 +35,7 @@ body{
 }
 
 .texto2_pie{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   color:black;
   font-size: 15px;
   margin: 15px;
@@ -63,7 +62,7 @@ body{
 }
 
 #subdivision{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: justify;
 }
 
@@ -511,7 +510,7 @@ body{
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   font-size: 50px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
+  font-family: 'Poppins', sans-serif; /*tipografía texto*/
   border-radius: 50px; /*bordes redondos*/
   margin-bottom: 20px;
   }
@@ -526,7 +525,7 @@ body{
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   font-size: 50px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
+  font-family: 'Poppins', sans-serif;/*tipografía texto*/
   border-radius: 50px; /*bordes redondos*/
   margin-bottom: 20px;
   }
@@ -538,7 +537,7 @@ body{
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   font-size: 50px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
+  font-family: 'Poppins', sans-serif;/*tipografía texto*/
   border-radius: 50px; /*bordes redondos*/
   margin-bottom: 20px;
   }
@@ -551,7 +550,7 @@ body{
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   font-size: 50px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
+  font-family: 'Poppins', sans-serif;/*tipografía texto*/
   border-radius: 50px; /*bordes redondos*/
   margin-bottom: 20px;
   }
@@ -563,7 +562,7 @@ body{
   color: #000000; /*color texto*/
   text-decoration: none; /*decoración texto*/
   font-size: 17px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
+  font-family: 'Poppins', sans-serif; /*tipografía texto*/
   border-radius: 5px; /*bordes redondos*/
   }
 
@@ -574,7 +573,7 @@ body{
   color: #000000; /*color texto*/
   text-decoration: none; /*decoración texto*/
   font-size: 17px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
+  font-family: 'Poppins', sans-serif;/*tipografía texto*/
   border-radius: 5px; /*bordes redondos*/
   }
 
@@ -585,7 +584,7 @@ body{
   color: #000000; /*color texto*/
   text-decoration: none; /*decoración texto*/
   font-size: 17px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
+  font-family: 'Poppins', sans-serif;/*tipografía texto*/
   border-radius: 5px; /*bordes redondos*/
   }
 
@@ -596,7 +595,7 @@ body{
   color: #000000; /*color texto*/
   text-decoration: none; /*decoración texto*/
   font-size: 17px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
+  font-family: 'Poppins', sans-serif;/*tipografía texto*/
   border-radius: 5px; /*bordes redondos*/
   }
 
@@ -619,7 +618,7 @@ body{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Didact Gothic', sans-serif;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -627,7 +626,7 @@ body{
     
     /* When you mouse over the navigation links, change their color */
     .sidenav a:hover {
-    color: #f1f1f1;
+    color: #ffffff;
     }
     
     /* Position and style the close button (top right corner) */
@@ -653,7 +652,7 @@ body{
   color: #ffffff; /*color texto*/
   text-decoration: none; /*decoración texto*/
   font-size: 15px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*tipografía texto*/
+  font-family:'Didact Gothic', sans-serif;/*tipografía texto*/
   border-radius: 50px; /*bordes redondos*/
   cursor: pointer;
   top: 10px;
@@ -680,6 +679,7 @@ body{
 
 #textomyDIV{
   font-style: italic;
+  font-family: 'Didact Gothic', sans-serif;
   margin: 0%;
   font-size: 20px;
 }
@@ -694,6 +694,7 @@ body{
 
 #textomyDIV2{
   font-style: italic;
+  font-family: 'Didact Gothic', sans-serif;
   margin: 0%;
   font-size: 20px;
 }
@@ -706,6 +707,7 @@ body{
 
 #textomyDIV3{
   font-style: italic;
+  font-family: 'Didact Gothic', sans-serif;
   margin: 0%;
   font-size: 20px;
 }
@@ -718,6 +720,7 @@ body{
 
 #textomyDIV4{
   font-style: italic;
+  font-family: 'Didact Gothic', sans-serif;
   margin: 0%;
   font-size: 20px;
 }
