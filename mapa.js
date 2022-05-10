@@ -384,7 +384,7 @@ $(document).ready(function(){
 
 
 function myFunctionA1() {
-  var x = document.getElementById("1");
+  var x = document.getElementById("M1");
     if (x.style.display === "none") {
         x.style.display = "block";
         $('#M1').show('fast');
