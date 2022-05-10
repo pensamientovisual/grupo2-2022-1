@@ -74,11 +74,18 @@ body{
 
 #TIT{
   padding: 20px;
+  margin-top: 700px; 
+}
+
+#svgmap{
+  padding: 30px;
+  float:right;
 }
 
 .mapadiv{
-  height: 80%;
-  margin: 0px -605px -30px;
+  width:200px;
+  float:right;
+  margin-right: 100px;
 }
 
 .mapadiv path{
@@ -727,12 +734,13 @@ body{
 }
 
 .btn-group{
-  width: auto;
+  width: 690px;
   height: 400px;
   display: grid;
   grid-template-columns: repeat(15, 1fr);
   grid-gap: 5px;
-  margin-left: 350px;
+  float:left;
+  margin-right: 30px;
   margin-top:30px;
   margin-bottom: 30px;
 
